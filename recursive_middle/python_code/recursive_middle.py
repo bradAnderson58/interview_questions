@@ -16,5 +16,5 @@ Returns:
 '''
 
 def find_recursive_middle(linked: Linked[T]) -> Optional[T]:
-    pass
+    return linked.head().get_val()
 
