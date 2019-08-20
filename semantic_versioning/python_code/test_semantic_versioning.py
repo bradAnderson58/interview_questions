@@ -1,4 +1,4 @@
-
+# python -m unittest test_semantic_versioning.py 
 import unittest
 from semantic_versioning import SemanticVersionQuestion, SemanticVersionException
 
