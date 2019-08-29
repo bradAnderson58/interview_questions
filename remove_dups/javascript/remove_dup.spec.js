@@ -31,4 +31,15 @@ describe('Removing Duplicates', () => {
   });
   */
 
+  
+  it('should square the numbers', () => {
+    var squares = listUtil.squareSorted([1, 2, 3, 4, 5]);
+    assert.deepEqual(squares, [1,4,9,16,25]);
+  });
+
+  it('should handle negatives', () => {
+    var squares = listUtil.squareSorted([-5, -4, 0, 3, 7]);
+    assert.deepEqual(squares, [0, 9, 16, 25, 49])
+  });
+
 });

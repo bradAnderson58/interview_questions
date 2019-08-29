@@ -4,7 +4,8 @@ module.exports = ListUtility();
 
 function ListUtility() {
   return {
-    removeDuplicates: removeDuplicates
+    removeDuplicates: removeDuplicates,
+    squareSorted: squareSorted
   }
 
 
@@ -13,5 +14,9 @@ function ListUtility() {
    */
   function removeDuplicates(dupsList) {
     return dupsList;
+  }
+
+  function squareSorted(sortedList) {
+    return sortedList.map(num => num * num);
   }
 }
