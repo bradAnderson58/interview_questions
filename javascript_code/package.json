@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "remove_dups": "mocha 'remove_dups/*.spec.js'",
+    "palindrome": "mocha 'palindrome/*.spec.js'",
+    "semantic_version": "mocha 'semantic_version/*.spec.js'"
+  },
+  "devDependencies": {
+    "mocha": "6.2.0"
+  }
+}
