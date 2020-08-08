@@ -13,12 +13,10 @@ namespace semantic_version
         /// </summary>
         public static string GetGreaterVersion(string v1, string v2)
         {
-            var splitV1 = v1?.Split(".").Where(s => s != "").ToArray();
-            var splitV2 = v2?.Split(".").Where(s => s != "").ToArray();
+            var splitV1 = v1?.Split(".");
+            var splitV2 = v2?.Split(".");
 
-            if (splitV1 is null ||
-                splitV2 is null ||
-                splitV1.Length + splitV1.Length != 6)
+            if (splitV1.Length + splitV1.Length != 6)
             {
                 throw new InvalidFormatException();
             }

@@ -6,6 +6,6 @@ namespace remove_duplicates
     static class RemoveDuplicatesExtension
     {
         public static IEnumerable<T> RemoveDuplicates<T>(this IEnumerable<T> one)
-            => one?.Distinct();
+            => one;
     }
 }
