@@ -9,12 +9,8 @@ Tests can be run using the command `python -m unittest test_<name_of_question>.p
 
 ### JavaScript
 Note: JavaScript tests rely on mocha and therefore you must run `npm install` to download dependencies before running the tests
-Tests can be run using the command `npm run test` from the folder containing the question.
+Tests can be run using the command `npm run <test name>` from the `javascript_code` directory.
 
 ### Java
 Note: Java code is currently a pain to run from the command line. (TODO)
 I included the .iml and .idea files so user should be able to just import it into IntelliJ and then run the tests from there
-
-#### TODO:
-
-We should refactor the directory structure to be by language first, then by question. Will make things easier since probably (besides JavaScript) user would probably only be interested in using questions for one language.
